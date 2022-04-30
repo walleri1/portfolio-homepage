@@ -1,6 +1,6 @@
 # Vitaliy Turov Homepage
 
-[https://www.vitaliy-turov.ru/](https://www.vitaliy-turov.ru/)
+[vitaliy-turov.vercel.app](vitaliy-turov.vercel.app)
 
 ## Project structure
 
