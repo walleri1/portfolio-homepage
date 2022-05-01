@@ -1,11 +1,10 @@
-import {Box, Center, Container, Heading} from '@chakra-ui/react'
-// import { SimpleGrid } from "@chakra-ui/react"
+import {Container, Divider, Heading} from '@chakra-ui/react'
+import { SimpleGrid } from "@chakra-ui/react"
 import Layout from '../components/layouts/article'
-// import Section from '../components/section'
-// import { WorkGridItem } from '../components/grid-item'
+import Section from '../components/section'
+import { WorkGridItem } from '../components/grid-item'
 
-// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import Paragraph from "../components/paragraph";
+import thumbQtProbabilityTheory from '../public/images/works/qt_probability_theory_1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -14,18 +13,20 @@ const Works = () => (
         Works
       </Heading>
 
-        <Box mb={4}>
-            <Center><Paragraph>My work will be posted here.</Paragraph></Center>
-        </Box>
+      <Section delay={0.2}>
+        <Divider my={6} />
 
-      {/*<SimpleGrid columns={[1, 1, 2]} gap={6}>*/}
-      {/*  <Section>*/}
-      {/*    <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>*/}
-      {/*      A Markdown note-taking app with 100+ plugins, cross-platform and*/}
-      {/*      encrypted data sync support*/}
-      {/*    </WorkGridItem>*/}
-      {/*  </Section>*/}
-      {/*</SimpleGrid>*/}
+        <Heading as="h3" fontSize={20} mb={4}>
+          Old works
+        </Heading>
+      </Section>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="qt_probability_theory" title="Probability theory. Laboratory work. Qt" thumbnail={thumbQtProbabilityTheory}>
+            Lab on Probability Theory in GUI Implementation in Qt C++
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
     </Container>
   </Layout>
 )
