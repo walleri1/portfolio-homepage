@@ -30,11 +30,11 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="./img/qt_probability_theory_1.png" alt="Probability theory. Laboratory work. Qt" />
-      <WorkImage src="./img/qt_probability_theory_2.png" alt="Probability theory. Laboratory work. Qt" />
-      <WorkImage src="./img/qt_probability_theory_3.png" alt="Probability theory. Laboratory work. Qt" />
-      <WorkImage src="./img/qt_probability_theory_4.png" alt="Probability theory. Laboratory work. Qt" />
-      <WorkImage src="./img/qt_probability_theory_5.png" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="https://github.com/walleri1/Probability-theory.-Laboratory-work.-Qt/raw/master/img/doc/1.PNG" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="https://github.com/walleri1/Probability-theory.-Laboratory-work.-Qt/raw/master/img/doc/2.PNG" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="https://github.com/walleri1/Probability-theory.-Laboratory-work.-Qt/raw/master/img/doc/3.PNG" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="https://github.com/walleri1/Probability-theory.-Laboratory-work.-Qt/raw/master/img/doc/4.PNG" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="https://github.com/walleri1/Probability-theory.-Laboratory-work.-Qt/raw/master/img/doc/5.PNG" alt="Probability theory. Laboratory work. Qt" />
     </Container>
   </Layout>
 )
