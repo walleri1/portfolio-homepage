@@ -4,6 +4,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+import thumbQtProbabilityTheory from './works/img/qt_probability_theory_main.png'
+
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -20,7 +22,7 @@ const Works = () => (
       </Section>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="qt_probability_theory" title="Probability theory. Laboratory work. Qt" thumbnail={'../public/images/works/qt_probability_theory_1.png'}>
+          <WorkGridItem id="qt_probability_theory" title="Probability theory. Laboratory work. Qt" thumbnail={thumbQtProbabilityTheory}>
             Lab on Probability Theory in GUI Implementation in Qt C++
           </WorkGridItem>
         </Section>
