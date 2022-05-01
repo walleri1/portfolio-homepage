@@ -30,11 +30,11 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="./works/img/qt_probability_theory_1.png" alt="Probability theory. Laboratory work. Qt" />
-      <WorkImage src="./works/img/qt_probability_theory_2.png" alt="Probability theory. Laboratory work. Qt" />
-      <WorkImage src="./works/img/qt_probability_theory_3.png" alt="Probability theory. Laboratory work. Qt" />
-      <WorkImage src="./works/img/qt_probability_theory_4.png" alt="Probability theory. Laboratory work. Qt" />
-      <WorkImage src="./works/img/qt_probability_theory_5.png" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="./img/qt_probability_theory_1.png" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="./img/qt_probability_theory_2.png" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="./img/qt_probability_theory_3.png" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="./img/qt_probability_theory_4.png" alt="Probability theory. Laboratory work. Qt" />
+      <WorkImage src="./img/qt_probability_theory_5.png" alt="Probability theory. Laboratory work. Qt" />
     </Container>
   </Layout>
 )
