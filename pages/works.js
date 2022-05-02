@@ -4,7 +4,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbQtProbabilityTheory from './works/img/qt_probability_theory_main.png'
+import thumbQtProbabilityTheory from '../public/images/works/qt_probability_theory_1.png'
 
 const Works = () => (
   <Layout title="Works">
