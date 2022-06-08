@@ -8,6 +8,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="yandex-verification" content="32e633dc10804054" />
         <meta name="description" content="Vitaliy Turov homepage" />
         <meta name="author" content="Vitaliy Turov" />
         <meta name="author" content="walleri1" />
