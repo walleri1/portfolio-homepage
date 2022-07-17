@@ -76,7 +76,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Vitaly is currently a hired software developer at <Link href={"https://radiogigabit.ru"} target="_blank">Radio Gigabit</Link> in Nizhny Novgorod, Russian Federation.
+          Vitaly is currently a hired software developer at <Link href={"https://www.eureca.ru/"} target="_blank">Eureca</Link> in St. Petersburg, Russian Federation.
         </Paragraph>
         <Paragraph>In my free time I like to learn new things like web development and mobile development and desktop development.</Paragraph>
         <Paragraph>
