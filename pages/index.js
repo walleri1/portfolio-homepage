@@ -119,8 +119,8 @@ const Home = () => (
           Worked at <Link href={"https://swtec.group"} target="_blank">SWTecNN</Link>
         </BioSection>
         <BioSection>
-          <BioYear>September 2020 to present</BioYear>
-          I work at <Link href={"https://radiogigabit.ru"} target="_blank">Radio Gigabit</Link>
+          <BioYear>September 2020 to July 2022</BioYear>
+          Worked at <Link href={"https://radiogigabit.ru"} target="_blank">Radio Gigabit</Link>
         </BioSection>
       </Section>
 
